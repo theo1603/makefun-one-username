@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """One Word, One Username, One Reward — make.fun bounty entry.
 
-Writes a single word — a brilliant, memorable username — to
+Writes a single word — a funny, memorable username — to
 /output/entry.txt. Deterministic, stdlib only, no network.
+
+The word is "Kerfuffle": a real single word that lands on the first
+read — a commotion, a fuss — funny in sound and meaning with no
+explanation needed, and a handle its owner would happily wear.
 """
 
 import os
 
-WORD = "Promptly"
+WORD = "Kerfuffle"
 
 
 def main() -> None:
